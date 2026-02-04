@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Google Chat MCP Server Evaluation
+
+  NOTE: These questions are templates designed to test the MCP server's capabilities.
+  Before running this evaluation, you must:
+  1. Connect to a real Google Chat workspace with actual content
+  2. Replace the placeholder answers with verified answers from your workspace
+  3. Adjust specific names, dates, and IDs to match your workspace data
+
+  Questions are designed to require multiple tool calls and deep exploration.
+-->
+<evaluation>
+  <qa_pair>
+    <question>Find the space that was created before 2024 and has the most members. What is the display name of this space?</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Look for a space with "engineering" or "eng" in its display name. Among all messages sent in that space during January 2024, which user sent the most messages? Provide their display name.</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Find all spaces that contain "project" in their name. Among these spaces, identify the one with the oldest creation date. What is the space's resource name (the 'name' field starting with 'spaces/')?</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Search for a message containing the word "deadline" sent in December 2023. What is the first name of the user who sent this message?</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Find a threaded conversation in any space where the original message was sent before March 2024 and received more than 3 reactions. What emoji was used the most on that message? Respond with just the emoji character.</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Locate the direct message space between the authenticated user and any other user that contains the most messages. What is the other user's display name?</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Among all spaces the authenticated user is a member of, which space has guidelines set (non-empty guidelines field)? If multiple exist, provide the display name of the one with the longest guidelines text.</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Find a message that contains an attachment (image or document). The message should have been sent before February 2024. What is the content type (MIME type) of the attachment?</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Identify the space that has exactly 5 members (including the authenticated user/app). What is the display name of this space? If multiple spaces have exactly 5 members, provide the one created most recently.</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Search for spaces that allow external users (externalUserAllowed is true). Among these, find the one created in 2023. List the role (ROLE_MEMBER or ROLE_MANAGER) of the first non-app member in that space when sorted alphabetically by display name.</question>
+    <answer>REPLACE_WITH_VERIFIED_ANSWER</answer>
+  </qa_pair>
+</evaluation>
